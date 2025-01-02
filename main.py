@@ -5,7 +5,7 @@ import tensorflow as tf
 
 from sklearn.model_selection import train_test_split
 
-dataset = pd.read_csv('cancer.csv')
+dataset = pd.read_csv('tumordata.csv')
 
 # setting up the x and y attributes
 # y attribute is whether it is malignant or begnin
